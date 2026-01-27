@@ -66,7 +66,6 @@ def main():
     print(f"Number of hours: {hours}")
     print(f"Hourly price: {hourly_price:.2f} €".replace('.', ','))
     print(f"Total price: {total_price:.2f} €".replace('.', ','))
-    print("PAID RAW VALUE:", repr(reservation[6]))
     print(f"Paid: {'Yes' if paid else 'No'}")
     print(f"Location: {location}")
     print(f"Phone: {phone}")
